@@ -1,6 +1,9 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'server',
+  server: {
+    host: '0.0.0.0',
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
